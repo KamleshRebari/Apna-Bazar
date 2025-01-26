@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Electronics</title>
+    <link rel="stylesheet" href="Project.css">
+    <style>
+        
+        h1{
+            text-align: center;
+        }
+
+        header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2874f0;
+    padding: 10px 20px;
+    color: white;
+}
+
+.search-bar input {
+    padding: 8px;
+    width: 300px;
+margin-left: -900px;
+}
+
+.search-bar button {
+    padding: 8px 15px;
+    background: #ff9f00;
+    border: none;
+    color: white;
+}
+
+.products{
+    align-items: center;
+    gap: 150px;
+}
+
+.product-card{
+    background-color: gray;
+}
+.product-card button{
+    color: #fff;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+
+    <header> 
+        <div class="logo">Apna Bazar</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products, brands and more">
+            <button>Search</button>
+        </div>
+    </header>
+    <h1>Home Page</h1>
+
+    <section class="products">
+        <div class="product-card">
+            <img src="https://assets.newatlas.com/dims4/default/86bd8a9/2147483647/strip/true/crop/1600x1067+0+0/resize/1200x800!/quality/90/?url=http:%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2F5e%2F2d%2F0275770d4911924e7d1de691bb19%2F00-xiaomi.jpg" alt="Product" height="150px" width="150px">
+            <h3>Vivo T1X</h3>
+            <p>12000 ₹</p>
+            <button class="addToCart">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="https://assets.newatlas.com/dims4/default/86bd8a9/2147483647/strip/true/crop/1600x1067+0+0/resize/1200x800!/quality/90/?url=http:%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2F5e%2F2d%2F0275770d4911924e7d1de691bb19%2F00-xiaomi.jpg" alt="Product" height="150px" width="150px">
+            <h3>Xiomi A55</h3>
+            <p>10000 ₹ </p>
+            <button class="addToCart" >Add to Cart</button>
+        </div>
+        
+        <div class="product-card">
+            <img src="https://assets.newatlas.com/dims4/default/86bd8a9/2147483647/strip/true/crop/1600x1067+0+0/resize/1200x800!/quality/90/?url=http:%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2F5e%2F2d%2F0275770d4911924e7d1de691bb19%2F00-xiaomi.jpg" alt="" height="150px" width="150px">
+            <h3>Sam. A10s</h3>
+            <p>8000 ₹</p>
+            <button class="addToCart">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="https://assets.newatlas.com/dims4/default/86bd8a9/2147483647/strip/true/crop/1600x1067+0+0/resize/1200x800!/quality/90/?url=http:%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2F5e%2F2d%2F0275770d4911924e7d1de691bb19%2F00-xiaomi.jpg" alt="Product" height="150px" width="150px">
+            <h3>Oppo Reno 5</h3>
+            <p>15000 ₹</p>
+            <button class="addToCart">Add to Cart</button>
+        </div>
+    </section>
+</body>
+</html>
